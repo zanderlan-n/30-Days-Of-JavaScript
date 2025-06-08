@@ -80,10 +80,10 @@ for (let i = 0; i <= 5; i++) {
 ```
 
 ```js
-const paises = ['Finlandia', 'Suecia', 'Dinamarca', 'Noruega', 'Islandia'];
+const países = ['Finlandia', 'Suecia', 'Dinamarca', 'Noruega', 'Islandia'];
 const novoArray = [];
-for (let i = 0; i < paises.length; i++) {
-  novoArray.push(paises[i].toUpperCase());
+for (let i = 0; i < países.length; i++) {
+  novoArray.push(países[i].toUpperCase());
 }
 
 // ["FINLAND", "SWEDEN", "DENMARK", "NORWAY", "ICELAND"]
@@ -115,11 +115,11 @@ console.log(novoArray); // [1, 4, 9, 16, 25]
 ```
 
 ```js
-const paises = ['Finlandia', 'Suecia', 'Noruega', 'Dinamarca', 'Islandia'];
+const países = ['Finlandia', 'Suecia', 'Noruega', 'Dinamarca', 'Islandia'];
 const novoArray = [];
-for (let i = 0; i < paises.length; i++) {
+for (let i = 0; i < países.length; i++) {
   // A função toUpperCase() é usada para converter o texto em maiúsculas
-  novoArray.push(paises[i].toUpperCase());
+  novoArray.push(países[i].toUpperCase());
 }
 
 console.log(novoArray); // ['FINLANDIA', 'SUECIA', 'NORUEGA', 'DINAMARCA', 'ISLANDIA']
@@ -205,9 +205,9 @@ for (const tech of webTechs) {
 ```
 
 ```js
-const paises = ['Finlandia', 'Suecia', 'Noruega', 'Dinamarca', 'Islandia'];
+const países = ['Finlandia', 'Suecia', 'Noruega', 'Dinamarca', 'Islandia'];
 const novoArray = [];
-for (const country of paises) {
+for (const country of países) {
   novoArray.push(country.toUpperCase());
 }
 
@@ -253,7 +253,7 @@ for (let i = 0; i <= 5; i++) {
 ### Exercícios: Nível 1
 
 ```js
-const paises = [
+const países = [
   'Albania',
   'Bolivia',
   'Canada',
@@ -385,21 +385,21 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node'];
    rgb(240,180,80)
    ```
 
-1. Usando o array paises acima, crie o seguinte novo array.
+1. Usando o array países acima, crie o seguinte novo array.
 
    ```sh
    ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
    ```
 
-1. Usando o array paises acima, crie um array para o comprimento dos paises.
+1. Usando o array países acima, crie um array para o comprimento dos países.
 
    ```sh
    [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5]
    ```
 
-<!-- 1. Use the paises array to create the following array of arrays: -->
+<!-- 1. Use the países array to create the following array of arrays: -->
 
-1. Use o array paises para criar o seguinte array de arrays:
+1. Use o array países para criar o seguinte array de arrays:
 
    ```sh
      [
@@ -418,27 +418,27 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node'];
    ]
    ```
 
-1. No array de paises acima, verifique se algum dos paises contem a palavra "land". Se algum pais conter "land", imprima como um array. Se nenhum paises conter a palavra "land", imprima "Todos os paises são sem land".
+1. No array de países acima, verifique se algum dos países contem a palavra "land". Se algum pais conter "land", imprima como um array. Se nenhum países conter a palavra "land", imprima "Todos os países são sem land".
 
    ```sh
    ['Finlandia','Ireland', 'Islandia']
    ```
 
-<!-- 1. In above paises array, check if there is a country or paises end with a substring 'ia'. If there are paises end with, print it as array. If there is no country containing the word 'ai', print 'These are paises ends without ia'. -->
+<!-- 1. In above países array, check if there is a country or países end with a substring 'ia'. If there are países end with, print it as array. If there is no country containing the word 'ai', print 'These are países ends without ia'. -->
 
-1. No array de paises acima, verifique se algum dos paises termina com a substring "ia". Se algum dos paises terminar, imprima como um array. Se nenhum dos paises conter a palavra "ai", imprima "Esses são os paises terminados com ia"
+1. No array de países acima, verifique se algum dos países termina com a substring "ia". Se algum dos países terminar, imprima como um array. Se nenhum dos países conter a palavra "ai", imprima "Esses são os países terminados com ia"
 
    ```sh
    ['Albania', 'Bolivia','Ethiopia']
    ```
 
-1. Usando o array de paises acima, procure o paises que contenha a maior quantidade de caracteres.
+1. Usando o array de países acima, procure o países que contenha a maior quantidade de caracteres.
 
    ```sh
    Ethiopia
    ```
 
-1. Usando o array de paises acima, encontre o paises que contenha apenas 5 caracteres.
+1. Usando o array de países acima, encontre o países que contenha apenas 5 caracteres.
 
    ```sh
    ['Japan', 'Kenya']
@@ -476,15 +476,15 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node'];
 
 ### Exercícios: Nível 3
 
-1. Copie o array de paises (Evite mutação)
+1. Copie o array de países (Evite mutação)
 1. Arrays são mutáveis. Crie uma cópia do array que não modifique o original. Ordene o array copiado e armazene em uma variável sortedCountries
 1. Ordene o array webTechs e o array mernStack
-1. Extraia todos os paises que contenham a palavra "land" do [array de paises](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/paises.js) e imprima como array
-1. Encontre o paises que contenha a maior quantidade de caracteres no [array de paises](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/paises.js)
-1. Extraia todos os paises que contenham a palavra "land" do [array de paises](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/paises.js) e imprima como array
-1. Extraia todos os paises que contenham apenas quatro caracteres do [array de paises](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/paises.js) e imprima como array
-1. Extraia todos os paises que contenham duas ou mais palavras do [array de paises](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/paises.js) e imprima como array
-1. Inverta o [array de paises](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/paises.js) e coloque cada país em maiúsculas e armazene como um array
+1. Extraia todos os países que contenham a palavra "land" do [array de países](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/países.js) e imprima como array
+1. Encontre o países que contenha a maior quantidade de caracteres no [array de países](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/países.js)
+1. Extraia todos os países que contenham a palavra "land" do [array de países](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/países.js) e imprima como array
+1. Extraia todos os países que contenham apenas quatro caracteres do [array de países](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/países.js) e imprima como array
+1. Extraia todos os países que contenham duas ou mais palavras do [array de países](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/países.js) e imprima como array
+1. Inverta o [array de países](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/países.js) e coloque cada país em maiúsculas e armazene como um array
 
 🎉 PARABÉNS ! 🎉
 

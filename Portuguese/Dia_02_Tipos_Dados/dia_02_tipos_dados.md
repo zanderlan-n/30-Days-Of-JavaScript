@@ -48,7 +48,7 @@
 
 ## Tipos de Dados
 
-Na sessão anterior, nós mencionamos um pouco sobre tipos de dados. Tipos de dados decrevem as caracteristicas dos dados, e podem ser divididos em duas categorias:
+Na sessão anterior, nós mencionamos um pouco sobre tipos de dados. Tipos de dados descrevem as características dos dados, e podem ser divididos em duas categorias:
 
 1. Tipos de dados primitivos
 2. Tipos de dados não primitivos (de referência do objeto.)
@@ -78,13 +78,13 @@ _Primitivo_ são tipos de dados imutáveis (não-modificável). Uma vez criado u
 let exemplo = 'JavaScript';
 ```
 
-Se nós tentarmos modificar uma string armazenada na variável _exemplo_, o JavaScript irá mostar um error. Qualquer dado entre aspas simples, aspas duplas, ou crase é um string.
+Se nós tentarmos modificar uma string armazenada na variável _exemplo_, o JavaScript irá mostrar um error. Qualquer dado entre aspas simples, aspas duplas, ou crase é um string.
 
 ```js
 exemplo[0] = 'Y';
 ```
 
-Esta expressão não muda a string armazenada na variável _exemplo_. Então, podemos dizer que strings não são modificavéis ou in outras palavras imutáveis.
+Esta expressão não muda a string armazenada na variável _exemplo_. Então, podemos dizer que strings não são modificáveis ou in outras palavras imutáveis.
 Tipos de dados primitivos são comparados pelo seu valor. Vamos comparar valores de dados diferentes. Veja o exemplo abaixo:
 
 ```js
@@ -116,7 +116,7 @@ numeros[0] = 1;
 console.log(numeros); // [1, 2, 3]
 ```
 
-Como você pode ver, um array é um tipo de dado não primitivo e mutável. Tipos de dados não primitivos não podem ser comparador pelos seus valores. Mesmo se dois tipos de dados não primitivos tem as mesmas propriedades e valores, eles não podem ser estritamentes iguais.
+Como você pode ver, um array é um tipo de dado não primitivo e mutável. Tipos de dados não primitivos não podem ser comparados pelos seus valores. Mesmo se dois tipos de dados não primitivos tem as mesmas propriedades e valores, eles não podem ser estritamente iguais.
 
 ```js
 let nums = [1, 2, 3];
@@ -139,7 +139,7 @@ let userTwo = {
 console.log(userOne == userTwo); // falso
 ```
 
-Regra de ouro, nós não comparamos tipos de dados não primitivos. Não se compara arrays, funções, ou objetos. Porque eles são comparados pela sua referência ao invez do valor. Dois objetos só são estritamentes iguais se a sua referência for o mesmo objeto subjacente.
+Regra de ouro, nós não comparamos tipos de dados não primitivos. Não se compara arrays, funções, ou objetos. Porque eles são comparados pela sua referência ao invés do valor. Dois objetos só são estritamente iguais se a sua referência for o mesmo objeto subjacente.
 
 ```js
 let nums = [1, 2, 3];
@@ -174,7 +174,7 @@ let massa = 72; // massa em Kilogramas
 const PI = 3.14; // pi constante geométrica
 
 // Mais exemplos
-const pontoEbulicao = 100; // temperatura em oC, ponto de ebulução da água que é uma constante
+const pontoEbulicao = 100; // temperatura em oC, ponto de ebulição da água que é uma constante
 const temperaturaCorpo = 37; // oC média da temperatura corporal humana, que é uma constante
 
 console.log(idade, gravidade, massa, PI, pontoEbulicao, temperaturaCorpo);
@@ -230,7 +230,7 @@ console.log(Math.E); // 2.718
 console.log(Math.log(2)); // 0.6931471805599453
 console.log(Math.log(10)); // 2.302585092994046
 
-// Retorna o logaritmo natural de 2 e 10 repectivamente
+// Retorna o logaritmo natural de 2 e 10 respectivamente
 console.log(Math.LN2); // 0.6931471805599453
 console.log(Math.LN10); // 2.302585092994046
 
@@ -421,7 +421,7 @@ I am Asabeneh Yetayeh. I am 250. I live in Finland.
 I am Asabeneh Yetayeh. I live in Helsinki, Finland. I am a teacher. I teach JavaScript.
 ```
 
-Usando Literais ou método de interpolação de String, nós podemos adicionar expressões, que podem ser algum valor, ou alguma operação (comparação, aritimética, operador ternário).
+Usando Literais ou método de interpolação de String, nós podemos adicionar expressões, que podem ser algum valor, ou alguma operação (comparação, aritmética, operador ternário).
 
 ```js
 let a = 2;
@@ -437,7 +437,7 @@ console.log(`${a} é maior que ${b}: ${a > b}`);
 
 Tudo em JavaScript é um objeto. String é um tipo de dado primitivo, que significa que não podemos modificá-la uma vez criada. Um objeto String pode ter vários métodos. Existe diferentes métodos para strings que pode nos ajudar.
 
-1. _length_: O método _length_ retorna o número de caracteres em uma string incluindo espaços vázios.
+1. _length_: O método _length_ retorna o número de caracteres em uma string incluindo espaços vazios.
 
 **Exemplo:**
 
@@ -570,7 +570,7 @@ console.log(primeiroNome.trim()); // ainda remove espaços no início e no fim d
 Asabeneh
 ```
 
-9. _includes()_: Usando uma substring como argumento, e então verifica se o argumento exise na string. _includes()_ retorna um boolean. Se uma substring existe na string, então retorna true, senão retornará false.
+9. _includes()_: Usando uma substring como argumento, e então verifica se o argumento existe na string. _includes()_ retorna um boolean. Se uma substring existe na string, então retorna true, senão retornará false.
 
 ```js
 let string = '30 Days Of JavaScript';

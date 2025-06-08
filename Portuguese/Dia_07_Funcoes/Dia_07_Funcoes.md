@@ -16,7 +16,7 @@
 
 [<< Dia 6](../Dia_06_Loops/dia_06_Loops.md) | [Dia 8 >>](../Dia_08_Objetos/dia_08_Objetos.md)
 
-![Thirty Days Of JavaScript](../images/banners/day_1_7.png)
+![Thirty Days Of JavaScript](../../images/banners/day_1_7.png)
 
 - [📔 Dia 7](#-dia-7)
   - [Funções](#funções)
