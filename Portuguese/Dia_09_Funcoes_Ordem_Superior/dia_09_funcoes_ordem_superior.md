@@ -19,7 +19,7 @@
 ![Dia 9](../../images/banners/day_1_9.png)
 
 - [Dia 9](#dia-9)
-	- [Funções de Ordem Superior](#funções-de-ordem-superior)
+	- [Funções de Ordem Superior (Higher Order Function)](#funções-de-ordem-superior-higher-order-function)
 		- [Callback](#callback)
 		- [Retornando função](#retornando-função)
 		- [Configuração de tempo](#configuração-de-tempo)
@@ -45,9 +45,9 @@
 
 # Dia 9
 
-## Funções de Ordem Superior
+## Funções de Ordem Superior (Higher Order Function)
 
-Funções de ordem superior são funções que recebem outras funções como parâmetro ou retornam uma função como valor. A função passada como parâmetro é chamada de callback.
+Funções de ordem superior (Higher Order Function) são funções que recebem outras funções como parâmetro ou retornam uma função como valor. A função passada como parâmetro é chamada de callback.
 
 ### Callback
 
